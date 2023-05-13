@@ -1,9 +1,6 @@
-# Telematics
-
-<p><code>Fundamentos de Telemática</code></p>
-<p>Creado por <code>Giancarlo Ortiz</code> para explicar los fundamentos de los <code>Sistemas de comunicaciones</code> en los cursos de telemática y redes de computadores.</p>
-
 # Practica de laboratorio 01
+
+<p>Creado por <code>Felipe Patiño Ruano</code> para dar solucion al Laboratorio uno de la asignatura de <code>Redes 2</code></p>
 
 ## Objetivos
 
@@ -27,11 +24,6 @@ Proporcionar el conocimiento y generar las habilidades necesarias en la configur
 6. Agregar <code>Usuario</code> y <code>Correo</code> globalmente para Git.
 7. Clonar el repositorio remoto desde VScode.
 
-```bash
-# Para agregar Usuario y Contraseña a GIT
-$ git config --global user.name "John Doe"
-$ git config --global user.email johndoe@example.com
-```
 
 [1_1]:https://code.visualstudio.com/download
 [1_2]:https://git-scm.com/download/win
@@ -101,8 +93,6 @@ $ git config --global user.email johndoe@example.com
 |Server DHCP|192.168.128.1|
 |Server DNS|192.168.128.1|
 
->Nota: Para obtener los parámetros de la red, usaremos el comando [ipconfig][10] o [ifconfig][8].
-
 ## 5. [Caracterización de la puerta de enlace](#) ✔
 
 |Parámetro|Valor|
@@ -113,8 +103,6 @@ $ git config --global user.email johndoe@example.com
 |ISP|Claro|
 |[IP Publica][5]|181.62.52.121|
 |Sistema Autónomo|AS14080|
-
->Nota: Para obtener los parámetros de la red, usaremos el comando [arp][11] y algún servicio web/HTTP.
 
 ## 6. [Retardo de la red](#) ✔
 
@@ -127,8 +115,6 @@ $ git config --global user.email johndoe@example.com
 |DNS Quad9|9.9.9.9|21ms|
 |AdGuard DNS|104.18.10.132|55ms|
 
->Nota: Para calcular el retardo de la red, usaremos el protocolo ICMP/[ping][12] con al menos 10 paquetes.
-
 ## 7. [Capacidad del canal](#) ✔
 
 |Servidor|Ping/ms|Down/MB|Up/MB|
@@ -137,8 +123,6 @@ $ git config --global user.email johndoe@example.com
 |[Netflix][2]|8|38|64|
 |[Claro][3]|15|32.75|33.67|
 |[nperf][4]|32.70|31.14|34.11|
-
->Nota: Para calcular el retardo de la red, usaremos el protocolo HTTP via servicio WEB.
 
 ## 8. [Distancia desde el host](#) ✔
 
@@ -156,8 +140,6 @@ $ git config --global user.email johndoe@example.com
 |claro.com.co|0|0|
 |platzi.com|55|8|
 |rappi.com.co|184|30|
-
->Nota: Para calcular el retardo de la red, usaremos el comando ICMP/[tracert][13].
 
 ## 9. [Diagrama de Red](#) ✔
 
@@ -221,4 +203,3 @@ $ git config --global user.email johndoe@example.com
 - Número de actividades: 10
 - Valor de cada actividad: 0.5
 - Ponderación: 20%
-- $\color{#DD69DD}{\text{...Carpe Diem}}$
