@@ -1,6 +1,6 @@
 # Telematics
 <p><code>Fundamentos de Telemática</code></p>
-<p>Creado por <code>Giancarlo Ortiz</code> para explicar los fundamentos de los <code>Sistemas de comunicaciones</code> en los cursos de telemática y redes de computadores.</p>
+<p>Creado por <code>Daniel Felipe Patiño , Jhon Jairo Cordoba y Danitza Milena Taimbud</code> para realizar el desarrollo de la <code>guia de laboratorio 2 </code> en los cursos de telemática y redes de computadores.</p>
 
 # Practica de laboratorio 02
 
@@ -34,6 +34,13 @@ Para todos los efectos:
 
 <ol type="a">
 <li>¿Como se llama la interfaz donde se conecta los cables UTP.?</li>
+
+***R/.*** La interfaz donde se conectan los cables UTP en los enrutadores se llama puerto Ethernet.*
+
+*POE IN (Power over Ethernet In) se refiere a una función que permite suministrar energía eléctrica a través del cable Ethernet a un dispositivo compatible, como una cámara de seguridad o un teléfono IP. Es decir, el enrutador está proporcionando energía al dispositivo conectado.*
+
+*POE OUT (Power over Ethernet Out) se refiere a la capacidad de un enrutador para recibir energía a través de un cable Ethernet y suministrarla a otro dispositivo conectado a través de un puerto compatible con Power over Ethernet. En este caso, el enrutador actúa como una fuente de alimentación para el dispositivo conectado.*
+
 <li>¿Que significa POE IN y POE OUT en una interfaz?.</li>
 <li>¿Que utilidad tiene la interfaz USB en los Enrutadores?.</li>
 <li>¿Que utilidad tiene la interfaz SFP en los Enrutadores?.</li>
