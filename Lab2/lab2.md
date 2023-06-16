@@ -35,7 +35,7 @@ Para todos los efectos:
 <ol type="a">
 <li>¿Como se llama la interfaz donde se conecta los cables UTP.?</li>
 
-***R/.*** La interfaz donde se conectan los cables UTP en los enrutadores se llama puerto Ethernet.*
+ __R/.__ *La interfaz donde se conectan los cables UTP en los enrutadores se llama puerto Ethernet.*
 
 *POE IN (Power over Ethernet In) se refiere a una función que permite suministrar energía eléctrica a través del cable Ethernet a un dispositivo compatible, como una cámara de seguridad o un teléfono IP. Es decir, el enrutador está proporcionando energía al dispositivo conectado.*
 
