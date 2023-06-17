@@ -158,13 +158,13 @@ __R/.__*Los enrutadores pueden tener una variedad de interfaces Ethernet dependi
 ## 7. [Caracterizar el router MikroTik](#) ✔
 |Parámetro||Valor|
 |--|:--:|--:|
-|Marca|-->||
-|Referencia|-->||
-|Velocidad de la CPU|-->||
-|Tamaño de la memoria RAM|-->||
-|Sistema Operativo|-->||
-|Tipo de WIFI|-->||
-|Voltaje DC|-->||
+|Marca|-->|MikroTik Routerboard|
+|Referencia|-->|RB931-2nD|
+|Velocidad de la CPU|-->|CPU 650 MHz|
+|Tamaño de la memoria RAM|-->|RAM 32 MB|
+|Sistema Operativo|-->|kernel de Linux 2.6|
+|Tipo de WIFI|-->|802.11b / g / n|
+|Voltaje DC|-->|5-5 voltios|
 
 ## 8. [Configurar básica de router MikroTik](#) ✔
 1. Conecte los equipos a la red eléctrica.
