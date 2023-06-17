@@ -1,4 +1,4 @@
-# Telematics
+## Telematics
 <p><code>Fundamentos de Telemática</code></p>
 <p>Creado por <code>Daniel Felipe Patiño , Jhon Jairo Cordoba y Danitza Milena Taimbud</code> para realizar el desarrollo de la <code>guia de laboratorio 2 </code> en los cursos de telemática y redes de computadores.</p>
 
