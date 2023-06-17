@@ -81,16 +81,17 @@ Para todos los efectos:
 ## 5. [Caracterizar la ONT HUAWEI](#) ✔
 |Parámetro||Valor|
 |--|:--:|--:|
-|Marca|-->||
-|Referencia|-->||
+|Marca|-->|Huawei OFENG-SECURITY|
+|Referencia|-->|HS8545M5 GPON ONU|
 |Velocidad de la CPU|-->||
 |Tamaño de la memoria RAM|-->||
 |Sistema Operativo|-->||
-|Tipo de WIFI|-->||
-|Voltaje DC|-->||
+|Tipo de WIFI|-->|802.11b/g/n|
+|Voltaje DC|-->|11-14V CC, 1A|
 
 ## 6. [Configurar básica de ONT HUAWEI](#) ✔
 1. Conecte los equipos a la red eléctrica.
+   
 1. [Reinicie][6_1] los dispositivos a la configuración de fabrica.
 1. Conecte los equipo mediante un patchcord (latiguillo) al equipo y a internet.
 1. [Acceder][6_2] al dispositivo via protocolo http desde el navegador web.
