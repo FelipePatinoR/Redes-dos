@@ -37,14 +37,60 @@ Para todos los efectos:
 
  __R/.__ *La interfaz donde se conectan los cables UTP en los enrutadores se llama puerto Ethernet.*
 
-*POE IN (Power over Ethernet In) se refiere a una función que permite suministrar energía eléctrica a través del cable Ethernet a un dispositivo compatible, como una cámara de seguridad o un teléfono IP. Es decir, el enrutador está proporcionando energía al dispositivo conectado.*
+
+<li>¿Que significa POE IN y POE OUT en una interfaz?.</li>
+
+
+__R/.__*POE IN (Power over Ethernet In) se refiere a una función que permite suministrar energía eléctrica a través del cable Ethernet a un dispositivo compatible, como una cámara de seguridad o un teléfono IP. Es decir, el enrutador está proporcionando energía al dispositivo conectado.*
 
 *POE OUT (Power over Ethernet Out) se refiere a la capacidad de un enrutador para recibir energía a través de un cable Ethernet y suministrarla a otro dispositivo conectado a través de un puerto compatible con Power over Ethernet. En este caso, el enrutador actúa como una fuente de alimentación para el dispositivo conectado.*
 
-<li>¿Que significa POE IN y POE OUT en una interfaz?.</li>
 <li>¿Que utilidad tiene la interfaz USB en los Enrutadores?.</li>
+
+__R/.__ *La interfaz USB en los enrutadores tiene varias utilidades que pueden depender del modelo específico del enrutador y de las características que ofrece. Algunas de las funciones comunes de la interfaz USB en los enrutadores son las siguientes:*
+
+*Compartir archivos: Algunos enrutadores permiten conectar dispositivos de almacenamiento USB, como unidades flash o discos duros externos, a través del puerto USB. Esto permite compartir archivos y medios de manera fácil y rápida en la red local.*
+
+*Impresión en red: Al conectar una impresora USB al puerto USB del enrutador, es posible compartir la impresora en toda la red local. Esto permite que múltiples dispositivos puedan imprimir a través de la misma impresora sin tener que conectarla directamente a cada dispositivo.*
+
+*Acceso a Internet móvil: Algunos enrutadores ofrecen la función de módem USB, lo que significa que puedes conectar un módem USB 3G/4G o un teléfono móvil al puerto USB para acceder a Internet utilizando una conexión móvil. Esto es especialmente útil en áreas donde no hay una conexión de banda ancha fija disponible.*
+
+*Almacenamiento en red (NAS): Algunos enrutadores con puerto USB tienen la capacidad de funcionar como servidores de almacenamiento en red (NAS, por sus siglas en inglés). Puedes conectar un disco duro externo al puerto USB y configurar el enrutador para que actúe como un servidor de archivos, permitiendo el acceso remoto y compartiendo archivos en la red local.*
+
+*Actualización de firmware: En algunos casos, el puerto USB también se puede utilizar para actualizar el firmware del enrutador. Esto puede ser útil para mantener el enrutador actualizado con las últimas características y mejoras de seguridad.*
+
+*Es importante tener en cuenta que no todos los enrutadores tienen un puerto USB y que las funciones disponibles pueden variar según el modelo y el fabricante del enrutador. Si estás interesado en utilizar alguna de estas funciones, te recomendaría consultar la documentación del enrutador específico que estás utilizando para obtener más detalles sobre las capacidades de su puerto USB.*
+
 <li>¿Que utilidad tiene la interfaz SFP en los Enrutadores?.</li>
+
+__R/.__ *- La interfaz SFP (Small Form-Factor Pluggable) en los enrutadores tiene varias utilidades y beneficios. SFP es un formato estándar para módulos ópticos y de red que permite la conexión de distintos tipos de interfaces de red a través de un conector compatible.*
+
+*- Conexión de fibra óptica: La interfaz SFP es ampliamente utilizada para la conexión de enrutadores a redes de fibra óptica. Los módulos SFP ópticos permiten transmitir datos a través de cables de fibra óptica, que ofrecen velocidades más altas y una mayor capacidad de transmisión a largas distancias en comparación con los cables de cobre tradicionales.*
+
+*- Flexibilidad y modularidad: La interfaz SFP permite la flexibilidad y la modularidad en los enrutadores. Los módulos SFP son intercambiables en caliente, lo que significa que se pueden insertar o quitar sin apagar el enrutador. Esto permite una mayor flexibilidad para adaptarse a diferentes necesidades de conectividad, ya sea utilizando módulos ópticos SFP para conectividad de fibra o módulos SFP de cobre para conexiones Ethernet estándar.*
+
+*- Distancias largas: Los módulos SFP ópticos ofrecen la capacidad de transmitir datos a distancias más largas en comparación con los cables de cobre. Esto es especialmente útil cuando se necesita conectar enrutadores a través de grandes áreas geográficas o en entornos donde las distancias de cableado son significativas.*
+
+*- Velocidades de transmisión: Los módulos SFP ofrecen diferentes velocidades de transmisión, como 1 Gigabit Ethernet (1GbE), 10 Gigabit Ethernet (10GbE) o incluso velocidades más altas, dependiendo del tipo de módulo SFP utilizado. Esto permite una mayor capacidad de ancho de banda y velocidades de transferencia de datos más rápidas en comparación con las interfaces Ethernet estándar.*
+
+*- Conectividad de redes específicas: Además de la conectividad de fibra óptica, los módulos SFP también pueden admitir otros tipos de redes, como conexiones de red inalámbrica (Wi-Fi), conexiones de línea telefónica (T1/E1) o conexiones de redes de área local virtuales (VLAN), entre otros.*
+
+
 <li>¿Que tipos de interface Ethernet se pueden encontrar en los Enrutadores?.</li>
+
+__R/.__*Los enrutadores pueden tener una variedad de interfaces Ethernet dependiendo del modelo y la funcionalidad específica del enrutador. Aquí hay algunos tipos comunes de interfaces Ethernet que se pueden encontrar en los enrutadores:*
+
+*Ethernet 10/100: Esta es una interfaz Ethernet estándar que admite velocidades de 10 Mbps y 100 Mbps. Es ampliamente utilizada en enrutadores para conexiones Ethernet de baja velocidad.*
+
+*Gigabit Ethernet (10/100/1000): Estas interfaces Ethernet admiten velocidades de 10 Mbps, 100 Mbps y 1 Gbps (1,000 Mbps). Son comunes en enrutadores de gama media y alta, y permiten una mayor capacidad de transmisión de datos.*
+
+*10 Gigabit Ethernet: Estas interfaces Ethernet admiten velocidades de 10 Gbps (10,000 Mbps). Se utilizan en enrutadores de alto rendimiento y se utilizan en entornos donde se requiere una gran capacidad de ancho de banda, como centros de datos o redes empresariales de alta demanda.*
+
+*Interfaces SFP/SFP+: Estas interfaces utilizan módulos SFP (Small Form-Factor Pluggable) o SFP+ para admitir conexiones ópticas o de cobre intercambiables en caliente. Los módulos SFP o SFP+ permiten la flexibilidad para adaptarse a diferentes tipos de cables y velocidades, como fibra óptica o cables Ethernet de cobre, y ofrecen velocidades de hasta 10 Gbps o incluso más altas.*
+
+*Interfaces 40/100 Gigabit Ethernet: Estas interfaces Ethernet admiten velocidades de 40 Gbps y 100 Gbps. Son utilizadas en enrutadores de nivel empresarial y en entornos de alto rendimiento donde se requiere un ancho de banda extremadamente alto.*
+
+
 </ol>
 
 ## 3. [Caracterizar el CPE TP-LINK](#) ✔
@@ -81,17 +127,16 @@ Para todos los efectos:
 ## 5. [Caracterizar la ONT HUAWEI](#) ✔
 |Parámetro||Valor|
 |--|:--:|--:|
-|Marca|-->|Huawei OFENG-SECURITY|
-|Referencia|-->|HS8545M5 GPON ONU|
+|Marca|-->||
+|Referencia|-->||
 |Velocidad de la CPU|-->||
 |Tamaño de la memoria RAM|-->||
 |Sistema Operativo|-->||
-|Tipo de WIFI|-->|802.11b/g/n|
-|Voltaje DC|-->|11-14V CC, 1A|
+|Tipo de WIFI|-->||
+|Voltaje DC|-->||
 
 ## 6. [Configurar básica de ONT HUAWEI](#) ✔
 1. Conecte los equipos a la red eléctrica.
-   
 1. [Reinicie][6_1] los dispositivos a la configuración de fabrica.
 1. Conecte los equipo mediante un patchcord (latiguillo) al equipo y a internet.
 1. [Acceder][6_2] al dispositivo via protocolo http desde el navegador web.
@@ -148,7 +193,16 @@ Para todos los efectos:
 
 ## 10. [Preguntas de conocimiento](#) ✔
 1. ¿Que diferencias hay entre cada una de las implementaciones? (Ventajas y Desventajas)
+
+__R/.__**
 1. ¿Que diferencias existe en el retardo via WIFI vs el retardo via UTP? (Justifique)
+
+__R/.__*En una conexión Wi-Fi, los datos se transmiten a través del aire utilizando ondas de radio. Esto puede introducir mayor variabilidad en la señal debido a factores como la interferencia electromagnética, obstáculos físicos y la presencia de otros dispositivos inalámbricos en la misma banda de frecuencia. En cambio, una conexión por cable UTP utiliza cables de cobre para la transmisión de datos, lo que proporciona una conexión física directa y más estable.*
+
+*Una conexión por cable UTP puede proporcionar un ancho de banda más alto en comparación con una conexión Wi-Fi. Esto significa que la conexión por cable tiene la capacidad de transmitir una mayor cantidad de datos en un período de tiempo determinado. Un mayor ancho de banda puede contribuir a una menor latencia, ya que los datos pueden transferirse más rápidamente a través del cable.*
+
+*Los dispositivos Wi-Fi requieren un procesamiento adicional para recibir y enviar datos a través de las ondas de radio. Esto implica un tiempo de procesamiento adicional que puede contribuir a una mayor latencia en comparación con las conexiones por cable UTP, donde la transmisión es directa y no requiere procesamiento adicional.*
+
 1. ¿Cual es la puerta de enlace a internet? ¿Cual es la ruta por defecto? En el punto (8)
 1. ¿Existe diferencia en las trazas hacia los DNS en internet, para cada medio de transmisión y dispositivo? (Justifique)
 
