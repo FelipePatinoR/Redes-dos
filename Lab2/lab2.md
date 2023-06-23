@@ -103,6 +103,8 @@ __R/.__*Los enrutadores pueden tener una variedad de interfaces Ethernet dependi
 |Sistema Operativo|-->||
 |Tipo de WIFI|-->||
 |Voltaje DC|-->||
+![](topografia1.png)
+
 
 ## 4. [Configurar básica de CPE TP-LINK](#) ✔
 1. Conecte los equipos a la red eléctrica.
