@@ -103,7 +103,6 @@ __R/.__*Los enrutadores pueden tener una variedad de interfaces Ethernet dependi
 |Sistema Operativo|-->||
 |Tipo de WIFI|-->||
 |Voltaje DC|-->||
-![](topografia1.png)
 
 
 ## 4. [Configurar básica de CPE TP-LINK](#) ✔
@@ -129,31 +128,52 @@ __R/.__*Los enrutadores pueden tener una variedad de interfaces Ethernet dependi
 ## 5. [Caracterizar la ONT HUAWEI](#) ✔
 |Parámetro||Valor|
 |--|:--:|--:|
-|Marca|-->||
-|Referencia|-->||
+|Marca|-->|Huawei|
+|Referencia|-->|HS8545M5|
 |Velocidad de la CPU|-->||
 |Tamaño de la memoria RAM|-->||
-|Sistema Operativo|-->||
+|Sistema Operativo|-->|HarmonyOS (HMOS)|
 |Tipo de WIFI|-->||
-|Voltaje DC|-->||
+|Voltaje DC|-->|12V, 1.5A|
 
 ## 6. [Configurar básica de ONT HUAWEI](#) ✔
 1. Conecte los equipos a la red eléctrica.
+    ![](/Lab2/1.jpg)
 1. [Reinicie][6_1] los dispositivos a la configuración de fabrica.
+    ![](/Lab2/2.jpg)
 1. Conecte los equipo mediante un patchcord (latiguillo) al equipo y a internet.
+    ![](/Lab2/3.jpg)
+    ![](/Lab2/3.1.jpg)
 1. [Acceder][6_2] al dispositivo via protocolo http desde el navegador web.
+    ![](/Lab2/4.png)
+    ![](/Lab2/4.1.png)
+    ![](/Lab2/4.2.png)
 1. Configurar la direccionamiento LAN con una IP privada, clase B para lograr conectividad con la red interna.
+    ![](/Lab2/5.png)
 1. Configurar el [DHCP][dhcp] para que asigne 50 direcciones IP entre [GG](#parámetros).150-[GG](#parámetros).200.
+    ![](/Lab2/6.png)
 1. Reservar una IP fija en la red interna para la MAC del un computador (Servidor).
+    ![](/Lab2/7.png)
 1. Configurar la [WLAN][wlan] de nombre y [PSK](psk) "REDES_4[G](#parámetros)" para lograr conectividad inalámbrica.
+    ![](/Lab2/8.png)
 1. Realizar pruebas [PING][4_3] a la puerta de enlace desde el computador conectado por UTP (Servidor).
+    ![](/Lab2/9.png)
 1. Realizar pruebas [PING][4_3] a la puerta de enlace desde el computador conectado por WIFI (Cliente).
+    ![](/Lab2/10.png)
 1. Realizar pruebas [PING][6_3] a la puerta de enlace desde un teléfono Movil conectado por WIFI.
+    ![](/Lab2/11.jpg)
+    ![](/Lab2/11.1.jpg)
 1. Listar los dispositivos por tipo que aparecen en "DHCP Information".
+    ![](/Lab2/12.png)
 1. Mapear el puerto 80 del router para que redirija a un servicio [Python][6_4] en un computador.
+    ![](/Lab2/13.png)
 1. Verificar que se puede acceder al servicio (pagina web) desde los dos clientes (móvil y PC).
+    ![](/Lab2/14.png)
+    ![](/Lab2/14.1.png)
 1. Habilitar la gestión remota del dispositivo desde cualquier IP.
+    ![](/Lab2/15.png)
 1. Realizar un backup de la configuración del equipo.
+    ![](/Lab2/16.png)
 
 >ONT: [HUAWEI][6_5] -> reiniciar:[Con el Router encendido dejamos presionado el botón reset durante 2 segundos hasta  hasta que los LEDs se apaguen][6_1] acceder: [conectar con la cadena user:twtvu@192.168.1.1][6_2]
 
