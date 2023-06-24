@@ -190,22 +190,66 @@ __R/.__*Los enrutadores pueden tener una variedad de interfaces Ethernet dependi
 
 ## 8. [Configurar básica de router MikroTik](#) ✔
 1. Conecte los equipos a la red eléctrica.
+    ![](/Lab2/Img_MikroTik/1.png)
 1. [Reinicie][8_1] los dispositivos a la configuración de fabrica.
+    ![](/Lab2/Img_MikroTik/2.png)
 1. Conecte los equipo mediante un patchcord (latiguillo) al equipo y a internet.
+    ![](/Lab2/Img_MikroTik/3.png)
+    ![](/Lab2/Img_MikroTik/3.1.png)
 1. [Acceder][8_2] al dispositivo por el puerto 8291 via Winbox.
+    ![](/Lab2/Img_MikroTik/4.png)
+    ![](/Lab2/Img_MikroTik/4.1.png)
 1. Cambiar el nombre del dispositivo para identificarlo.
+    ![](/Lab2/Img_MikroTik/5.png)
+    ![](/Lab2/Img_MikroTik/5.1.png)
 1. Cambiar la contraseña del usuario "admin" a "Redes_2".
+    ![](/Lab2/Img_MikroTik/6.png)
+    ![](/Lab2/Img_MikroTik/6.1.png)
+    ![](/Lab2/Img_MikroTik/6.2.png)
 1. Configurar las [interfaces][8_3] y el [bridge][8_4] (conmutador) para dos redes (Interna y externa).
+    ![](/Lab2/Img_MikroTik/7.png)
+    ![](/Lab2/Img_MikroTik/7.1.png)
 1. Agregar la [dirección][8_5] de la interfaz externa en el segmento necesario para acceder a internet.
+    ![](/Lab2/Img_MikroTik/8.png)
+    ![](/Lab2/Img_MikroTik/8.1.png)
+    ![](/Lab2/Img_MikroTik/8.2.png)
 1. Agregar la [dirección][8_5] del bridge (interna) con una IP privada, clase A.
+    ![](/Lab2/Img_MikroTik/9.png)
 1. Agregar un [Pool][8_6] en el segmento de la LAN que asigne direcciones entre [GG](#parámetros).100-[GG](#parámetros).200.
+    ![](/Lab2/Img_MikroTik/10.png)
 1. Configurar el [DHCP][dhcp] y las rutas estáticas necesarias para lograr conectividad de la red interna con internet.
+    ![](/Lab2/Img_MikroTik/11.png)
+    ![](/Lab2/Img_MikroTik/11.1png)
+    ![](/Lab2/Img_MikroTik/11.2.png)
+    ![](/Lab2/Img_MikroTik/11.3.png)
 1. Configurar la [WLAN][wlan] de nombre y [PSK](psk) "REDES_4[G](#parámetros)" para lograr conectividad inalámbrica.
+    ![](/Lab2/Img_MikroTik/12.png)
+    ![](/Lab2/Img_MikroTik/12.1.png)
+    ![](/Lab2/Img_MikroTik/12.3.png)
+    ![](/Lab2/Img_MikroTik/12.4.png)
+    ![](/Lab2/Img_MikroTik/12.5.png)
+    ![](/Lab2/Img_MikroTik/12.6.png)
+    ![](/Lab2/Img_MikroTik/12.7.png)
 1. Realizar pruebas de diagnostico [PING][8_7] y [TRACEROUTE][4_4] desde el router.
+    ![](/Lab2/Img_MikroTik/13.png)
+    ![](/Lab2/Img_MikroTik/13.1.png)
+    ![](/Lab2/Img_MikroTik/13.2.png)
 1. Realizar pruebas de diagnostico [PING][4_3] y [TRACEROUTE][4_4] desde un computador conectado via UTP.
+    ![](/Lab2/Img_MikroTik/14.png)
+    ![](/Lab2/Img_MikroTik/14.1.png)
+    ![](/Lab2/Img_MikroTik/14.2.png)
+    ![](/Lab2/Img_MikroTik/14.3.png)
 1. Realizar pruebas de diagnostico [PING][4_3] y [TRACEROUTE][4_4] desde un computador conectado via WIFI.
+    ![](/Lab2/Img_MikroTik/15.png)
+    ![](/Lab2/Img_MikroTik/15.1.png)
+    ![](/Lab2/Img_MikroTik/15.2.png)
+    ![](/Lab2/Img_MikroTik/15.3.png)
+    ![](/Lab2/Img_MikroTik/15.4.png)
 1. Realizar un backup de la configuración del equipo.
-
+    ![](/Lab2/Img_MikroTik/16.png)
+    ![](/Lab2/Img_MikroTik/16.1.png)
+    ![](/Lab2/Img_MikroTik/16.2.png)
+    ![](/Lab2/Img_MikroTik/16.3.png)
 >ROUTER: [MikroTik][8_5] -> reiniciar:[Con el botón de reset presionado encendemos el equipo. Dejamos presionado el botón reset durante 2-3 segundos hasta que veamos parpadear alguno de los LEDs de servicio][8_1] Acceder:[instale winbox y acceda por la pestaña "Neighbors" Login:admin y Password:admin][8_2]
 
 ## 9. [Diagrama de Red](#) ✔
