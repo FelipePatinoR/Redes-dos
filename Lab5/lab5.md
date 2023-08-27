@@ -2,7 +2,7 @@
 
 <p>Creado por:
     <ul>
-        <li>Danitza Milena Taimbud Pistala [RJ45][rj45]</li>
+        <li>Danitza Milena Taimbud Pistala</li>
         <li>Jhon Jairo Corodba Lopez</li>
         <li>Daniel Felipe Patiño Ruano</li>
     </ul>
