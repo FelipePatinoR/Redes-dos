@@ -101,6 +101,8 @@ Para todos los efectos:
 1. ¿Cuantos router internos RI, de borde ABR y de sistema autónomo ASBR hay en el esquema? (identifique)
 1. ¿Cuantas areas multi-acceso (broadcast) y punto a punto (PtP) hay en el esquema? (identifique)
 
+
+[danitza]:https://github.com/DanitzaTaimbud
 [psk]:https://es.wikipedia.org/wiki/Pre-shared_key
 [dhcp]:https://es.wikipedia.org/wiki/Protocolo_de_configuraci%C3%B3n_din%C3%A1mica_de_host
 [wlan]:https://es.wikipedia.org/wiki/Red_de_%C3%A1rea_local_inal%C3%A1mbrica
