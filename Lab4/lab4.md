@@ -20,7 +20,7 @@ Proporcionar el conocimiento y generar las habilidades necesarias en la configur
 
 ---
 
-## 1. Parámetros:
+## 1. [Parámetros:](#) ✔
 
 Para todos los efectos:
 
